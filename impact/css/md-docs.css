@@ -1,0 +1,244 @@
+/***
+MemberDev Docs Stylesheet
+***/
+
+/* 01: Global
+========================================================================================================================= */
+body {
+	background: #eee;
+}
+
+code {
+	font-size: .85em;
+	padding: 10px;
+	background: #314143;
+	color: #fff;
+	border-radius: 0;
+}
+ 
+pre {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+/* 02: Layout
+========================================================================================================================= */
+/* docs rail */
+.docs-rail {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	padding: 30px;
+	background: #314143;
+	overflow: auto;
+}
+.docs-rail .rail-brand {
+	display: block;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: .25s;
+    -moz-transition: .25s;
+    -o-transition: .25s;
+    transition: .25s;
+    z-index: 1002;
+}
+.docs-rail .rail-brand .brand-icon {
+	color: #02bad5;
+}
+.docs-rail .rail-brand .brand-text .bold {
+	color: #02bad5;
+}
+.docs-rail .rail-brand sup {
+	color: #999;
+	font-size: .6em;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+/* rail nav */
+.rail-nav .nav-title {
+	font-size: 1.2em;
+	color: #fff;
+	margin: 0 0 15px;
+}
+.rail-nav .nav-menu {
+	list-style: none;
+	font-size: .85em;
+	font-weight: 700;
+	margin: 0 0 20px;
+}
+.rail-nav .nav-menu li {
+	margin: 0;
+	border-top: 1px solid rgba(255, 255, 255, .15);
+}
+.rail-nav .nav-menu li a {
+	display: block;
+	padding: 15px 0;
+	color: rgba(255, 255, 255, .5);
+	text-decoration: none;
+}
+.rail-nav .nav-menu li a:hover {
+	padding-left: 10px;
+	background: rgba(255, 255, 255, .15);
+	color: #fff;
+}
+
+/* docs body */
+.docs-body {
+	padding: 30px;
+	margin-left: 300px;
+}
+
+/* docs section */
+.docs-section {
+	margin: 0 0 30px;
+}
+.docs-section .section-title {
+	font-weight: 700;
+}
+
+/* docs module */
+.docs-module {
+	display: table;
+	width: 100%;
+	margin: 0 0 30px;
+	background: #fff;
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, .15);
+} 
+.docs-module .module-content,
+.docs-module .module-code {
+	/*display: table-cell;*/
+	padding: 30px; 
+	vertical-align: top;
+}
+.docs-module .module-code {
+	width: 100%;
+	background: #000; 
+}
+.docs-module .module-code .code-label {
+	padding: 0 0 20px;
+	margin: 0 0 20px;
+	color: #02bad5;
+	border-bottom: 1px solid;
+}
+.docs-module .module-code pre {
+	padding: 0;
+	background: none;
+	color: #fff;
+	font-size: .85em;
+}
+.docs-module .module-code pre hr {
+	border-top-color: rgba(255, 255, 255, .25);
+}
+.docs-module .module-title {
+	padding: 0 0 20px;
+	margin: 0 0 20px;
+	border-bottom: 1px solid #333;
+}
+.docs-module .module-icons i {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px 20px 0;
+	font-size: 2em;
+	line-height: 1;
+	text-align: center;
+}
+.docs-module .module-icons .i-name {
+	display: inline-block;
+	width: 250px;
+	margin: 0 10px 10px 0;
+	color: #999;
+	vertical-align: middle;
+}
+.docs-module .module-icons .i-tag {
+	display: none;
+}
+
+/* module tables */
+.table.table-module {
+	width: 100%;
+}
+.table.table-module th,
+.table.table-module td {
+	padding: 15px;
+	vertical-align: top;
+}
+.table.table-module thead {
+	background: #f5f5f5;
+}
+.table.table-module .row-trans {
+	background: #151515;
+	color: #fff;
+}
+.table.table-module code {
+	display: block;
+}
+
+/* Necessary over-rides for UI display */
+.site-header {
+	position: relative;
+	background: #333;
+	overflow: auto;
+}
+.site-header .header-brand {
+	top: 20px;
+}
+
+/* 02: Plugins
+========================================================================================================================= */
+/* Google Code Prettify - used for tutorial markup */
+
+/* SPAN elements with the classes below are added by prettyprint. */
+.pln {color: #eee;}  /* plain text */
+
+@media screen {
+  .str {color: #d1f26c;}  /* string content */
+  .kwd {color: #ca81fd;}  /* a keyword - LIGHT PURPLE */
+  .com {color: #666;}  /* a comment - GREY */
+  .typ {color: #f60;}  /* a type name - ORANGE */
+  .lit {color: #357ffb;}  /* a literal value - BLUE */
+  /* punctuation, lisp open bracket, lisp close bracket */
+  .pun, .opn, .clo {color: #999;}
+  .tag {color: #69cafc;}  /* a markup tag name - LIGHT BLUE */
+  .atn {color: #357ffb;}  /* a markup attribute name - BLUE */
+  .atv {color: #d1f26c;}  /* a markup attribute value - LIME GREEN */
+  .dec, .var {color: #ff0;}  /* a declaration; a variable name - YELLOW */
+  .fun {color: #f60;}  /* a function name - ORANGE */
+}
+
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+  .str {color: #060;}
+  .kwd {color: #006; font-weight: bold;}
+  .com {color: #600; font-style: italic;}
+  .typ {color: #404; font-weight: bold;}
+  .lit {color: #044;}
+  .pun, .opn, .clo {color: #440;}
+  .tag {color: #006; font-weight: bold;}
+  .atn {color: #404;}
+  .atv {color: #060;}
+}
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprint {background: #000; font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace; overflow-x: auto; margin: 0 0 20px; border: none;}
+pre.prettyprint.terminal {padding: 15px; color: #999;}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {margin-top: 0; margin-bottom: 0; padding-left: 40px;} /* IE indents via margin-left */
+ol.linenums li {color: #666; margin: 0; padding: 5px;}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {background: #222;}
