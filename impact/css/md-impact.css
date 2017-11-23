@@ -135,10 +135,10 @@ blockquote {
 }
 .site-header .header-nav ul > li.nav-cta > a {
 	font-weight: 700;
-	color: #f60;
+	color: #258780;
 }
 .site-header .header-nav ul > li.nav-cta > a:hover {
-	background: #f60;
+	background: #258780;
 	color: #fff;
 }
 .site-header .header-nav ul > li > a > i {
@@ -585,7 +585,7 @@ blockquote {
 /* sections with background images */
 .page-section.section-cta {
 	padding: 100px 0;
-	background: url(../images/section-bg-placeholder.jpg) #151515;
+	background: url(../images/crossfit-2.jpg) #151515;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
