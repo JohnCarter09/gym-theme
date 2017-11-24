@@ -57,6 +57,10 @@ blockquote {
 .color-cta {color: #fc0 !important;}
 
 /* ----- icons ----- */
+.mdi.mdi-medal-1 {
+ 	width: 10px;
+ 	height: 10px;
+}
 
 /* ----- buttons ----- */
 
@@ -499,7 +503,7 @@ blockquote {
 .page-header {
 	position: relative;
 	padding: 100px 0 30px;
-	background: url(../images/page-header-bg-placeholder.jpg) center center #333;
+	background: url(../images/section-bg-placeholder.jpg) center center #333;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
