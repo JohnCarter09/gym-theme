@@ -61,7 +61,12 @@ blockquote {
  	width: 10px;
  	height: 10px;
 }
-
+.lable-green {
+	color: #55cc2d;
+}
+.lable-red{
+	color: #f40e0e;
+}
 /* ----- buttons ----- */
 
 /* ----- lists ----- */
