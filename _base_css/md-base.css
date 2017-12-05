@@ -1093,8 +1093,9 @@ textarea {
 }
 input[type="submit"],
 button[type="submit"] {
-	color: #fff;
-	background: #08c;
+	background: #258780;
+	color: #000;
+	border: none;
 	padding: 15px 30px;
 	font-weight: 700;
 	font-size: 1em;
