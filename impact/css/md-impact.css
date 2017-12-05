@@ -774,6 +774,9 @@ blockquote {
 
 /* 04: Components
 ========================================================================================================================= */
+.modal-body{
+
+}
 /* ---------- Breadcrumb ---------- */
 .breadcrumb {
 	padding: 0;
@@ -844,6 +847,47 @@ blockquote {
 }
 .item.item-with-image .item-image img:hover {
 	transform: scale(1.10);
+}
+/* ----------- profile ----------- */
+.profile-header{
+	position: relative;
+	max-height: 300px;
+	overflow: hidden;
+}
+.profile-headder .header-bg-image{
+	display: block;
+	width: 100%;
+}
+.profile-header .header-body{
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	z-index: 5px;
+}
+.profile-header .header-content {
+	position: relative;
+	min-height: 130px;
+	padding: 0px 30px 30px 160px;
+
+}
+.profile-header .header-content .profile-image {
+	position: absolute;
+	top: 0;
+	left: 30px;
+	width: 100px;
+}
+.profile-header .header-content .profile-image img {
+	border-radius: 100px;
+}
+
+
+.profile-header .header-content .profile-name {
+	color: #fff;
+	margin:0 0 5px;
+}
+.profile-header .header-content .profile-username{
+	color:#f4f4f4;
 }
 
 /* ----------- Search ----------- */
