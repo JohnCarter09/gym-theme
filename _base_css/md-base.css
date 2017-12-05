@@ -248,14 +248,14 @@ img {
 	border-color: #900;
 }
 .btn.btn-primary {
-	background: #09c;
-	color: #fff;
-	border: 2px solid #09c;
+	color: #000;
+	background: #258780;
+	border: none;
 }
 .btn.btn-primary:hover {
-	background: #036;
+	background: #12423e;
 	color: #fff;
-	border: 2px solid #036;
+	border: none;
 }
 .btn.btn-save {
 	background: #690;
