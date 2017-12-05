@@ -34,7 +34,7 @@
                 <li><a href="template-contact.html">Contact</a></li>
                 <li><a href="#"></a></li>
                 <li class="nav-login"><a href="template-login.html"><i class="mdi mdi-lock"></i>Login</a></li>
-                <li class="nav-cta"><a href="#"><i class="mdi mdi-plus-circle"></i> Become a Member</a></li>
+                <li><a href="#wod-Modal" data-toggle="modal">Todays Workout</a></li>
             </ul>
         </div>
         <!--/.header-nav-->
@@ -210,6 +210,29 @@
 	<!--/.container-->
 </div>
 <!--/.site-footer-->
+<div class="modal fade" id="wod-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Work out of the Day</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                <div class="modal-body">
+                    <ul>
+                        <strong><li> WOD  for 12 / 09/ 1999 </li></strong>
+                        <p>WORKOUT OF THE DAY GOES HERE</p>
+                    </ul>
+                </div>
+                <!--/.modal body-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        <!--/.modal-dialog-->
+    </div>
+    <!--/.modal-fade-->
 
 <script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
 <script type="text/javascript" src="../_base_js/bootstrap.min.js"></script>
