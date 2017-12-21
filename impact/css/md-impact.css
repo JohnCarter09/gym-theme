@@ -317,11 +317,12 @@ blockquote {
 .about-spacing {
 	padding-top: 30px;
 }
-.user-avatar.placeholder {
-	padding:100px;
+.user-placeholder {
+	padding: 100px;
 }
 .content-about{
 	padding: 15px;
+
 }
 /* ---------- Checkout ---------- */
 .checkout-container {
